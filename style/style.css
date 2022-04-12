@@ -40,7 +40,15 @@ img{
 .header_logo{
     padding: 13px 0;
 }
-.nav_list{
+.nav_list_content{
+    display: flex;
+    align-items: center;
+}
+.nav_list1{
+    display: flex;
+    align-items: center;
+}
+.nav_list2{
     display: flex;
     align-items: center;
 }
