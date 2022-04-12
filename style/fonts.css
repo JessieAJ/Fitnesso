@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'Permanent Marker';
+    src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Red Hat Display';
+    src: url(../fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: 'FontAwesome Brands';
+    src: url(../icon/fa-brands-400.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'FontAwesome';
+    src: url(../icon/fa-duotone-900.ttf);
+    font-weight: 900;
+}
+@font-face{
+    font-family: 'FontAwesome';
+    src: url(../icon/fa-light-300.ttf);
+    font-weight: 300;
+}
+@font-face{
+    font-family: 'FontAwesome';
+    src: url(../icon/fa-regular-400.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'FontAwesome Solid';
+    src: url(../icon/fa-solid-900.ttf);
+    font-weight: 900;
+}
+
+.fal{
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.icon-angle::before{
+    content: '\f054';
+    font-style: normal;
+    font-style: 20px;
+    color: white;
+    margin-right: 8px;
+}

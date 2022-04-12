@@ -1,0 +1,506 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #081158;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1368px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* === Header start=== */
+.header{
+    height: 995px;
+    display: flex;
+    flex-direction: column;
+}
+/* === nav === start*/
+.nav{
+    padding: 7px 0;
+    background: #FFFFFF;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    padding: 13px 0;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+.nav_link{
+    font-family: 'Red Hat Display';
+    margin: 0 20px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.nav_button{
+    padding: 11.5px 20px;
+    background: #081158;
+    border-radius: 6px;
+
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.nav_icon{
+    margin-left: 25px;
+}
+/* === nav === end*/
+
+/* === intro === start*/
+.header_intro{
+    background: #EEF0F4;
+    display: flex;
+    align-items: center;
+
+    flex-grow: 1;
+}
+.header_intro_content{
+    display: flex;
+    align-items: center;
+}
+.header_intro_left{
+    margin-right: 80px;
+    text-align: center;
+}
+.marker_title{
+    font-family: 'Permanent Marker';
+    font-size: 64px;
+    letter-spacing: 1px;
+    color: #8EA5A0;
+    line-height: 70px;
+}
+.header_intro_left_pretitle{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.header_intro_left_title{
+    font-family: 'Roboto';
+    /* font-weight: 400; */
+    font-size: 72px;
+    line-height: 79px;
+}
+.header_intro_left_text{
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    line-height: 36px;
+    margin: 31px 0 25px;
+}
+.header_intro_left_link{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+
+    background: #081158;
+    border-radius: 6px;
+    padding: 21px 20px 21px 16px;
+}
+/* === intro === end*/
+/* === Header end=== */
+
+/* === Main start=== */
+/* === line start=== */
+.main_line{
+    background: #081158;
+    height: 237px;
+    display: flex;
+}
+.main_line_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.main_line_link{
+    font-family: 'Red Hat Display';
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DFDFDF;
+}
+/* === line end=== */
+
+/* === journey start=== */
+.journey{
+    padding: 80px 0 50px;
+}
+.journey_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.journey_content_title{
+    width: 700px;
+    font-family: 'Roboto';
+    font-size: 62px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.journey_content_link{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px;
+    background: #081158;
+    border-radius: 6px;
+}
+
+.journey_content_block{
+    width: 1150px;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.journey_content_card:nth-of-type(1){
+    margin-bottom: 115px;
+}
+.journey_content_card:nth-of-type(2){
+    margin-bottom: 115px;
+}
+.journey_content_card{
+    width: 400px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.journey_content_card_title{
+    width: 330px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 33px;
+}
+.journey_content_card_text{
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    line-height: 29px;
+}
+/* === journey end=== */
+
+/* === free1 start=== */
+.free{
+    background: #EEF0F4;
+    padding: 150px 0;
+}
+.free_content_info{
+    width: 800px;
+    margin-bottom: 100px;
+}
+.free_content_title{
+    font-family: 'Roboto';
+    font-size: 86px;
+    line-height: 99px;
+}
+.free_content_text{
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    line-height: 36px;
+    margin: 31px 0 25px;
+}
+.free_content_link{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: #081158;
+    border-radius: 6px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.free_content_block{
+    display: flex;
+    justify-content: space-between;
+}
+.free_content_card{
+    background-color: #FFFFFF;
+    /* width: 423px; */
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.free_content_card img{
+    width: 100%;
+}
+.free_content_card_info{
+    width: 362px;
+    margin-top: 30px;
+    position: relative;
+}
+.free_content_card_title{
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin: 14px 0;
+}
+.free_content_card_link{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    margin-left: 13px;
+}
+.free_content_card_pretitle{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.free_content_card_info span{
+    font-family: 'Permanent Marker';
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #EC8675;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* === free1 end=== */
+
+/* === free2 start=== */
+.free2{
+    background: url('../img/free2-background.png') no-repeat center center/cover;
+    padding: 150px 0;
+}
+.free2_content_info{
+    margin-bottom: 180px;
+}
+.free2_content_info h2{
+    color: #FFFFFF;
+}
+.free2_content_info p{
+    color: #FFFFFF;
+}
+.free_content_card_info .discount{
+    font-family: 'Permanent Marker';
+    font-size: 11px;
+    line-height: 13px;
+    color: #AFAFAF;
+    top: 20px;
+    right: 0;
+}
+/* === free2 end=== */
+
+/* === sweat start=== */
+.sweat{
+    height: 560px;
+    background: url('../img/sweat.png') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sweat_spans{
+    display: none;
+}
+/* === sweat end=== */
+
+/* === benefit start=== */
+.benefit{
+    padding: 150px 0;
+}
+.benefit_content{
+    display: flex;
+}
+.benefit_content_info{
+    width: 530px;
+    margin-right: 270px;
+}
+.benefit_content_title{
+    font-family: 'Roboto';
+    font-size: 60px;
+    line-height: 70px;
+}
+.benefit_content_text{
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    line-height: 36px;
+    margin: 30px 0 25px;
+}
+.benefit_content_link{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #081158;
+    border-radius: 6px;
+    padding: 20px 33px 20px 20px;
+    display: inline-block;
+}
+/* === benefit end=== */
+
+/* === main image start=== */
+.main_image{
+    background: url('../img/main-image.png') no-repeat center/cover;
+    height: 764px;
+}
+/* === main image end=== */
+
+/* === posts image start=== */
+.posts{
+    padding: 150px 0;
+}
+.posts_content{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+}
+.posts_content_title{
+    font-family: 'Roboto';
+    font-size: 61px;
+    line-height: 70px;
+    text-align: center;
+}
+.posts_content_text{
+    width: 775px;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    margin: 34px auto 25px;
+}
+.posts_content_link{
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #081158;
+    border-radius: 6px;
+    padding: 20px 23px 20px 15px;
+    display: inline-block;
+}
+.posts_content_block{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.posts_content_block img{
+    width: 32%;
+}
+/* === posts image end=== */
+
+/* === contacts start=== */
+.contacts{
+    padding: 150px 0;
+    background: #EEF0F4;
+}
+.contacts_line{
+    background: #EC8675;
+    padding: 95px 0;
+}
+.contacts_line_block{
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts_line_block a:nth-of-type(2){
+    margin-top: 10px;
+}
+.contacts_line_block a:nth-of-type(3){
+    margin-top: 20px;
+}
+.contacts_line_block a:nth-of-type(4){
+    margin-top: 30px;
+}
+/* === contacts end=== */
+/* === Main end=== */
+
+/* === Footer start=== */
+.footer{
+    padding: 100px 0;
+    background: #081158;
+}
+.footer_content_payment{
+    display: flex;
+    gap: 65px;
+    margin-top: 50px;
+}
+.footer_content_info{
+    display: flex;
+}
+.footer_content_info_block{
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_logo{
+    margin-right: 150px;
+}
+.footer_content_info_block_title{
+    margin-bottom: 14px;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer_content_info_block_text{
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.footer_content_info_block_email{
+    font-family: 'Roboto';
+    font-size: 27px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+/* === Footer end=== */
