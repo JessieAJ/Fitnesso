@@ -455,7 +455,7 @@
 
 @media (max-width: 576px){
     .header{
-        height: 795px;
+        height: 860px;
     }
     .nav_list_content{
         flex-wrap: wrap;
